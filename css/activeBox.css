@@ -1,0 +1,29 @@
+@import url(bootstrap.min.css);
+@import url(global.css);
+@import url(responsive.css);
+main {
+    margin-top: 160px;
+}
+main h1 {
+    color: #ff7f7d;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 83px;
+    letter-spacing: 1px;
+}
+main p {
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    color: #1F272F;
+}
+main h2 {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1F272F;
+}
+.img-container {
+    margin-top: 50px;
+    width: 100%;
+}
