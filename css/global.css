@@ -4,11 +4,13 @@ body, html {
 }
 a {
     text-decoration: none;
+    color: #1F272F;
 }
+
 /* MENU */
 .logo {
     font-family: 'DM Mono';
-    color: #1F272F;
+    color: rgb(194, 55, 194);
     font-size: 24px;
     font-weight: 500;
 }
@@ -16,24 +18,28 @@ a {
     color: purple;
 }
 .button{
-    border: 2px solid #1F272F;
+    border: 2px solid rgb(194, 55, 194);
     border-radius: 125px;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: #1F272F;
+    color: rgb(194, 55, 194);
     width: 168px;
     font-family: 'DM Mono';
     font-weight: 500;
 }
 .button:hover {
+    border: 1px solid purple;
+    background-color: purple;
     color: #F8F8F8;
 }
 .menu {
     background-color: #F8F8F8;
 }
 .menu img {
+    background-color: #e1e1e1;
+    border-radius: 16px;
     opacity: 0.8;
 }
 .menu img:hover {

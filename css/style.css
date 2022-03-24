@@ -24,10 +24,10 @@ main{
 }
 #projects a.img-link {
     display: block;
-    background-color: #f4f4f4;
+    background-color: rgb(216, 216, 216);
     border-radius: 8px;
     padding: 16px;
-    color: #1F272F;
+    
 }
 #projects a.img-link:hover {
     background-color: #fff1f5;
@@ -39,4 +39,16 @@ main{
 }
 #projects a.img-link .img-container {
     height: 538px;
+}
+.dark {
+    background-color: #1F272F;
+    color: white;
+}
+.dark2 {
+    border: 1px solid rgb(66, 66, 66);
+    background-color: #1b1d1f;
+    color: white;
+}
+.aDark {
+    color: white;
 }
