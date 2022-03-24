@@ -55,6 +55,15 @@ a {
 .menu img:hover {
     opacity: 1;
 }
+.icone-sol {
+    border: none;
+    border-radius: 50%;
+    padding: 8px 4px;
+    background-color: transparent;
+}
+.icone-sol img {
+    background-color: transparent;
+}
 /*MENU END*/
 footer {
     border: 1px solid #e1e1e1;
