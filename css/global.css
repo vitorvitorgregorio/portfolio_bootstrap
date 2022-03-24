@@ -10,29 +10,39 @@ a {
 /* MENU */
 .logo {
     font-family: 'DM Mono';
-    color: rgb(194, 55, 194);
+    color: #1F272F;
     font-size: 24px;
     font-weight: 500;
 }
 .logo:hover {
     color: purple;
 }
+.logoDark {
+    color: #f8f8f8;
+}
 .button{
-    border: 2px solid rgb(194, 55, 194);
+    border: 2px solid #1F272F;
     border-radius: 125px;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-    color: rgb(194, 55, 194);
+    color: #1F272F;
     width: 168px;
     font-family: 'DM Mono';
     font-weight: 500;
 }
 .button:hover {
-    border: 1px solid purple;
-    background-color: purple;
+    background-color: #1F272F;
     color: #F8F8F8;
+}
+.btnDark {
+    border: 2px solid #f8f8f8;
+    color: #f8f8f8;
+}
+.btnDark:hover {
+    background-color: #f8f8f8;
+    color: #1F272F;
 }
 .menu {
     background-color: #F8F8F8;
